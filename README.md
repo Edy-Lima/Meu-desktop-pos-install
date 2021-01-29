@@ -1,4 +1,4 @@
-# Meu-desktop+limpeza
+# Meu-desktop-limpeza
 
 # Como executa-los:
 
