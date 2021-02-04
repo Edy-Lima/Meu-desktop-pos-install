@@ -1,4 +1,4 @@
-# Meu-desktop-limpeza
+# PROGRAMAS & limpeza
 
 # Como executa-los:
 
@@ -13,7 +13,7 @@ selecione a opção desejada para a execução,
 
 Vai pedir a senha do usuário para continuar , digite e depois (ENTER).
 
-# Sobre o script ( meu-desktop.sh ):
+# Sobre o script ( PROGRAMAS.sh ):
 
 Trata-se de um script (pessoal) , mas pode ser usado em qualquer distro baseada em Ubuntu e derivados,
 criado para instalar alguns programas que requer o uso do "terminal"
