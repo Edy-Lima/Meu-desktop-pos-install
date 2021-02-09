@@ -15,7 +15,7 @@ echo "Escolha uma opção abaixo para começar!
       5 - Instalar Cubic
       6 - Instalar UNetbootin
       7 - Instalar AnyDesk
-      8 - Instalar Git-GgitHub
+      8 - Instalar Git-GitHub
       9 - Instalar vs-code
       10- Instalar prelink e preload
       11- Manual prelink
