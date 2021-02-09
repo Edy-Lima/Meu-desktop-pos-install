@@ -1,4 +1,4 @@
-# PROGRAMAS & limpeza
+# PROGRAMAS.sh
 
 # Como executa-los:
 
