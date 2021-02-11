@@ -21,6 +21,8 @@ echo "Escolha uma opção abaixo para começar!
       11- Manual prelink
       12- Instalar compton
       13- Manual compton
+      14- Instalar kdenlive
+      15- Instalar SimpleScreenRecorder
       0 - Sair do sistema"
 echo " "
 echo -n "Opção escolhida: "
@@ -103,8 +105,18 @@ case $opcao in
                 echo ***Manual compton no link abaixo***
                 sleep $TIME
                 x-www-browser https://drive.google.com/file/d/1iDIrYXoDQzBOM2rGj-JbQG2e2yuS12u1/view?usp=sharing
-                ;;        
-
+                ;;
+        14)
+                echo Instalando kdenlive...
+                sleep $TIME 
+                sudo add-apt-repository ppa: kdenlive / kdenlive-stable -y
+                sudo apt install kdenlive -y     
+                ;;
+        15)
+                echo Instalando  SimpleScreenRecorder...
+                sleep $TIME
+                sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder -y
+                sudo apt install simplescreenrecorder -y
         0)
                 echo Saindo do sistema...
                 sleep $TIME
