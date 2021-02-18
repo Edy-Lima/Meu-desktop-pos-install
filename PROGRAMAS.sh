@@ -22,6 +22,7 @@ echo "Escolha uma opção abaixo para começar!
       14- Instalar kdenlive
       15- Instalar SimpleScreenRecorder
       16- Instalar Lutris
+      17- Instalar Ubuntu Mainline Kernel Installer
       0 - Sair do sistema"
 echo " "
 echo -n "Opção escolhida: "
@@ -121,6 +122,11 @@ case $opcao in
                 echo Instalando Lutris...
                 sudo add-apt-repository ppa:lutris-team/lutris -y
                 sudo apt install lutris -y
+                ;;
+        17)
+                echo instalando Mainline...
+                sudo apt-add-repository -y ppa:cappelikan/ppa
+                sudo apt install mainline -y
                 ;;
         0)
                 echo Saindo do sistema...
