@@ -17,12 +17,11 @@ echo "Escolha uma opção abaixo para começar!
       7 - Instalar AnyDesk
       8 - Instalar Git-GitHub
       9 - Instalar vs-code
-      10- Instalar prelink e preload
-      11- Manual prelink
-      12- Instalar compton
-      13- Manual compton
+      10- Instalar prelink e preload * 11- Manual prelink
+      12- Instalar compton * 13- Manual compton
       14- Instalar kdenlive
       15- Instalar SimpleScreenRecorder
+      16- Instalar Lutris
       0 - Sair do sistema"
 echo " "
 echo -n "Opção escolhida: "
@@ -117,6 +116,12 @@ case $opcao in
                 sleep $TIME
                 sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder -y
                 sudo apt install simplescreenrecorder -y
+                ;;
+        16)
+                echo Instalando Lutris...
+                sudo add-apt-repository ppa:lutris-team/lutris -y
+                sudo apt install lutris -y
+                ;;
         0)
                 echo Saindo do sistema...
                 sleep $TIME
