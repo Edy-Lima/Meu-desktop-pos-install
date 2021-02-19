@@ -18,6 +18,8 @@ Vai pedir a senha do usuário para continuar , digite e depois (ENTER).
 Trata-se de um script ( pessoal ),
 sua finalidade é comfigurar meu desktop entre romever e instalar alguns programas , para deixa-lo pronto para meu trabalho,sendo que pode ser usado em quanquer distro baseada em "Ubuntu e Debian.
 
+OBS: é possivél escolher entre configurações com ou sem (snap e swap).
+
 
 # Sobre o script: ( PROGRAMAS.sh ):
 
