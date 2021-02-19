@@ -49,8 +49,8 @@ case $opcao in
                 echo Instalando programas extras...
                 sudo apt install gnome-disk-utility exfat-fuse exfat-utils default-jre usb-creator-gtk -y 
                 sudo apt install xfce4-appmenu-plugin appmenu-gtk2-module appmenu-gtk3-module htop screenfetch -y 
-                sudo apt install neofetch gufw plank pitivi synaptic simplescreenrecorder evince -y 
-                sudo apt install gtk2-engines-murrine gtk2-engines-pixbuf winff gedit guvcview curl -y
+                sudo apt install neofetch gufw plank pitivi synaptic simplescreenrecorder evince testdisk -y 
+                sudo apt install gtk2-engines-murrine gtk2-engines-pixbuf winff gedit guvcview curl p7zip-rar -y
                 sudo apt install sassc libcanberra-gtk-module libglib2.0-dev -y
                 echo Instalação do Google Chrome...
                 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -112,8 +112,8 @@ case $opcao in
                 echo Instalando programas extras...
                 sudo apt install gnome-disk-utility exfat-fuse exfat-utils default-jre usb-creator-gtk -y 
                 sudo apt install xfce4-appmenu-plugin appmenu-gtk2-module appmenu-gtk3-module htop screenfetch -y 
-                sudo apt install neofetch gufw plank pitivi synaptic simplescreenrecorder evince -y 
-                sudo apt install gtk2-engines-murrine gtk2-engines-pixbuf winff gedit guvcview curl -y
+                sudo apt install neofetch gufw plank pitivi synaptic simplescreenrecorder evince p7zip-rar -y 
+                sudo apt install gtk2-engines-murrine gtk2-engines-pixbuf winff gedit guvcview curl testdisk -y
                 sudo apt install sassc libcanberra-gtk-module libglib2.0-dev -y
                 echo Instalação do Google Chrome...
                 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
