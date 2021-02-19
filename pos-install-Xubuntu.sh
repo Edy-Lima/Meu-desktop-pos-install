@@ -8,8 +8,8 @@ echo "SEJA BEM VINDO AO $0 DO UBUNTU!"
 echo " "
 echo "Escolha uma opção abaixo para começar!
       
-      1 - Configurar Xubuntu-desktop sem snap
-      2 - Configurar Xubuntu-desktop com snap
+      1 - Configurar Xubuntu-desktop sem snap e swap
+      2 - Configurar Xubuntu-desktop com snap e swap
       0 - Sair do sistema"
 echo " "
 echo -n "Opção escolhida: "
@@ -89,7 +89,7 @@ case $opcao in
                 echo Tudo pronto!
                 ;;
         2)
-                echo Configurando seu destop com snap...
+                echo Configurando seu destop com snap e swap...
                 sleep $TIME
                 echo Ativação do TRIM
                 sudo systemctl enable fstrim.timer
@@ -99,11 +99,8 @@ case $opcao in
                 sudo apt remove gnome-keyring -y
                 sudo apt remove --auto-remove gnome-keyring -y
                 sudo apt remove --purge apport apport-gtk apport-symptoms -y
-                sudo apt autoremove --purge libreoffice* xfburn* atril* firefox* thunderbird* pidgin* -y          
-                echo Vamos agora remover o swap...
-                # Desativa e remove o swapfile.
-                sudo sed -i.bak '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab && sudo swapoff -a && sudo rm -f -r /swapfile
-                echo Swap removido!
+                sudo apt autoremove --purge libreoffice* xfburn* atril* firefox* thunderbird* pidgin* -y 
+                # Instalar alguns programas extras
                 echo ***Aguarde! vamos instalar alguns programas***
                 echo Instalação do inkskape...
                 sudo add-apt-repository ppa:inkscape.dev/stable -y
@@ -111,8 +108,7 @@ case $opcao in
                 echo Instalação do Cubic...
                 sudo add-apt-repository ppa:cubic-wizard/release -y
                 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 6494C6D6997C215E
-                sudo apt install cubic -y
-                # Instalar alguns programas extras.
+                sudo apt install cubic -y     
                 echo Instalando programas extras...
                 sudo apt install gnome-disk-utility exfat-fuse exfat-utils default-jre usb-creator-gtk -y 
                 sudo apt install xfce4-appmenu-plugin appmenu-gtk2-module appmenu-gtk3-module htop screenfetch -y 
