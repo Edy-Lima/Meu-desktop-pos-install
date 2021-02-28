@@ -51,7 +51,7 @@ case $opcao in
                 sudo apt install xfce4-appmenu-plugin appmenu-gtk2-module appmenu-gtk3-module htop screenfetch -y 
                 sudo apt install neofetch gufw plank pitivi synaptic simplescreenrecorder evince testdisk -y 
                 sudo apt install gtk2-engines-murrine gtk2-engines-pixbuf winff gedit guvcview curl p7zip-rar -y
-                sudo apt install sassc libcanberra-gtk-module libglib2.0-dev -y
+                sudo apt install sassc libcanberra-gtk-module libglib2.0-dev gamemode steam -y
                 echo Instalação do Google Chrome...
                 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
                 sudo dpkg -i google-chrome-stable_current_amd64.deb
@@ -114,7 +114,7 @@ case $opcao in
                 sudo apt install xfce4-appmenu-plugin appmenu-gtk2-module appmenu-gtk3-module htop screenfetch -y 
                 sudo apt install neofetch gufw plank pitivi synaptic simplescreenrecorder evince p7zip-rar -y 
                 sudo apt install gtk2-engines-murrine gtk2-engines-pixbuf winff gedit guvcview curl testdisk -y
-                sudo apt install sassc libcanberra-gtk-module libglib2.0-dev -y
+                sudo apt install sassc libcanberra-gtk-module libglib2.0-dev gamemode steam -y
                 echo Instalação do Google Chrome...
                 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
                 sudo dpkg -i google-chrome-stable_current_amd64.deb
