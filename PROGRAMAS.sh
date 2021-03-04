@@ -69,7 +69,7 @@ case $opcao in
                 sleep $TIME
                 sudo wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | apt-key add -
                 sudo echo "deb http://deb.anydesk.com/ all main" > /etc/apt/sources.list.d/anydesk-stable.list
-                sudo apt install anydesk -y
+                sudo apt update && sudo apt install anydesk -y
                 ;;
         8)
                 echo Instalando Git-GgitHub...
