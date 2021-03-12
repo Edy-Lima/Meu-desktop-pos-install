@@ -27,6 +27,7 @@ Lista de programas que serão excluidos
 3-Firefox
 4-Thunderbird
 5-Pidigin
+6-LibreOffice
 
 
 # Sobre o script: ( PROGRAMAS.sh ):
