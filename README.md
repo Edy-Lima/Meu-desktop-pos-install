@@ -20,6 +20,14 @@ sua finalidade é comfigurar meu desktop entre romever e instalar alguns program
 
 OBS: é possivél escolher entre configurações com ou sem (snap e swap).
 
+Atenção!
+Lista de programas que serão excluidos
+1-XfBurn
+2-Atril
+3-Firefox
+4-Thunderbird
+5-Pidigin
+
 
 # Sobre o script: ( PROGRAMAS.sh ):
 
